@@ -27,3 +27,11 @@ function mdas(num1, num2) {
 }
 console.log(mdas(5, 3));
 
+const heading = document.querySelector("h1")
+
+const contact = document.querySelector(".contact");
+const services = document.querySelector(".services");
+
+console.log(contact);
+console.log(services);
+
