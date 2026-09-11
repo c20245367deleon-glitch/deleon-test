@@ -2,7 +2,7 @@ console.log("Hello World.");
 console.log("first Javascript");
 
 const myName = "Nicole De Leon";
-myNumber = 09678915863,
+myNumber = 09158484559,
     myAddress = "purok Humayan brgy luna cadiz city negros occidental";
 let age = 20;
 
@@ -10,3 +10,10 @@ console.log("Name: " + myName);
 console.log("Number: " + myNumber);
 console.log("Address: " + myAddress);
 console.log("Age: " + age);
+
+//Functions
+function greet(name) {
+    return 'good morning, ${name}';
+
+}
+console.log(); // good morning, Nicole De Leon
