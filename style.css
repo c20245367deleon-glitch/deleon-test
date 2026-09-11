@@ -6,7 +6,7 @@ ul {
     list-style: none;
 }
 
-nav {
+\\HOVER EFFECTS\\ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,10 +72,7 @@ form {
         color: red;
     }
 
-    span {
-        font-size: 75 px;
-        color: green;
-    }
+
 }
 
 @media (max-width: 768px) {
@@ -91,7 +88,7 @@ nav a {
 }
 
 nav a:hover {
-    color: pink;
+    color: red;
 }
 
 button {
@@ -105,6 +102,6 @@ button {
 }
 
 button:hover {
-    background-color: pink;
+    background-color: red;
     color: black
 }
