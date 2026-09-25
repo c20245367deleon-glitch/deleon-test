@@ -16,7 +16,7 @@ function greet(name) {
     return 'good morning, ${name}';
 
 }
-console.log(); // good morning, Nicole De Leon
+console.log(greet(`Rene`));
 
 function mdas(num1, num2) {
     let mul = num1 * num2;
