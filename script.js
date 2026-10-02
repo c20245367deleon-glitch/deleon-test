@@ -40,10 +40,19 @@ const servicesHeading = document.querySelector("#services h2");
 console.log(servicesHeading);
 
 //text Content
-heading.textContent = "My Portfolio";
+heading.textContent = "";
 contactHeading.textContent = "lets connect";
 projectsHeading.textContent = "My Projects";
 servicesHeading.textContent = "My Services";
+
+
+const switchButton = document.querySelector("#switch");
+
+switchButton.addEventListener("click", function () {
+
+    document.body.style.backgroundColor = "black";
+
+});
 
 //.style
 heading.style.color = "purple";
@@ -51,5 +60,4 @@ heading.style.backgroundColor = "yellow";
 contactHeading.style.color = "purple";
 projectsHeading.style.color = "purple";
 servicesHeading.style.color = "purple";
-
 
